@@ -1,0 +1,16 @@
+/Users/gadoevalex/Desktop/consultant/consultant/bin/Debug/netstandard2.0/consultant.deps.json
+/Users/gadoevalex/Desktop/consultant/consultant/bin/Debug/netstandard2.0/consultant.dll
+/Users/gadoevalex/Desktop/consultant/consultant/bin/Debug/netstandard2.0/ref/consultant.dll
+/Users/gadoevalex/Desktop/consultant/consultant/bin/Debug/netstandard2.0/consultant.pdb
+/Users/gadoevalex/Desktop/consultant/consultant/obj/Debug/netstandard2.0/consultant.csprojAssemblyReference.cache
+/Users/gadoevalex/Desktop/consultant/consultant/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/gadoevalex/Desktop/consultant/consultant/obj/Debug/netstandard2.0/consultant.AssemblyInfoInputs.cache
+/Users/gadoevalex/Desktop/consultant/consultant/obj/Debug/netstandard2.0/consultant.AssemblyInfo.cs
+/Users/gadoevalex/Desktop/consultant/consultant/obj/Debug/netstandard2.0/consultant.csproj.CoreCompileInputs.cache
+/Users/gadoevalex/Desktop/consultant/consultant/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/gadoevalex/Desktop/consultant/consultant/obj/Debug/netstandard2.0/consultant.dll
+/Users/gadoevalex/Desktop/consultant/consultant/obj/Debug/netstandard2.0/ref/consultant.dll
+/Users/gadoevalex/Desktop/consultant/consultant/obj/Debug/netstandard2.0/consultant.pdb
+/Users/gadoevalex/Desktop/consultant/consultant/obj/Debug/netstandard2.0/Views/RequestsListPage.xaml.g.cs
+/Users/gadoevalex/Desktop/consultant/consultant/obj/Debug/netstandard2.0/Views/SettingsPage.xaml.g.cs
+/Users/gadoevalex/Desktop/consultant/consultant/obj/Debug/netstandard2.0/Views/ProductCardPage.xaml.g.cs

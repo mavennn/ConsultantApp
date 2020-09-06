@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/gadoevalex/Desktop/consultant/consultant.Android/consultant.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/gadoevalex/Desktop/consultant/consultant.Android/consultant.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gadoevalex/Desktop/consultant/consultant.Android/consultant.Android.csproj",
+        "projectName": "consultant.Android",
+        "projectPath": "/Users/gadoevalex/Desktop/consultant/consultant.Android/consultant.Android.csproj",
+        "packagesPath": "/Users/gadoevalex/.nuget/packages/",
+        "outputPath": "/Users/gadoevalex/Desktop/consultant/consultant.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/gadoevalex/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/gadoevalex/Desktop/consultant/consultant/consultant.csproj": {
+                "projectPath": "/Users/gadoevalex/Desktop/consultant/consultant/consultant.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.6.0.1141, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/gadoevalex/Desktop/consultant/consultant/consultant.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/gadoevalex/Desktop/consultant/consultant/consultant.csproj",
+        "projectName": "consultant",
+        "projectPath": "/Users/gadoevalex/Desktop/consultant/consultant/consultant.csproj",
+        "packagesPath": "/Users/gadoevalex/.nuget/packages/",
+        "outputPath": "/Users/gadoevalex/Desktop/consultant/consultant/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/gadoevalex/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.5.3.2, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.6.0.1141, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

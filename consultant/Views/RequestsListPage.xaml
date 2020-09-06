@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:consultant.ViewModels;assembly=consultant"
+             xmlns:images="clr-namespace:consultant;assembly=consultant"
+             xmlns:views="clr-namespace:consultant.Views;assembly=consultant"
+             x:Class="consultant.Views.RequestsListPage">
+    <ContentPage.BindingContext>
+        <local:RequestsListViewModel />
+    </ContentPage.BindingContext>
+    
+    <!-- Header -->
+    <NavigationPage.TitleView>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Image
+                Source="{images:ImageResource consultant.Images.settings.png}" 
+                VerticalOptions="Center" 
+                HorizontalOptions="End" Margin="0, 0, 20, 0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_OnTapped" />
+                </Image.GestureRecognizers>
+            </Image>
+        </Grid>
+    </NavigationPage.TitleView>
+    
+    <!-- Основной контент страницы -->
+    <ContentPage.Content>
+        <ListView RowHeight="100"
+                  ItemTapped="ListView_OnItemTapped"
+                  HorizontalOptions="Center"
+                  SeparatorVisibility="None"
+                  ItemsSource="{Binding Requests}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <SwipeView>
+                            <SwipeView.LeftItems>
+                                <SwipeItem 
+                                    IconImageSource="{images:ImageResource consultant.Images.check.png}" 
+                                    BackgroundColor="Black"/>
+                            </SwipeView.LeftItems>
+                            <Grid BackgroundColor="Beige" VerticalOptions="FillAndExpand">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="2*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Label
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="Center"
+                                    FontSize="60"
+                                    Text="{Binding RoomNumber}" />
+                                <Label
+                                    HorizontalOptions="Center"
+                                    VerticalOptions="Center"
+                                    Grid.Column="1"
+                                    FontSize="25"
+                                    Text="{Binding Title}" />
+                                <Label
+                                    HorizontalOptions="Center"
+                                    VerticalOptions="Center"
+                                    Grid.Column="2"
+                                    Text="{Binding Date}" />
+                            </Grid>
+                        </SwipeView>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        
+    </ContentPage.Content>
+</ContentPage>

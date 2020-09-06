@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="consultant.Views.SettingsPage">
+             
+    <ContentPage.Content>
+        <StackLayout Margin="30">
+            <Label FontSize="30" Text="Введите IP адрес сервера" />
+            <Editor x:Name="ServerAddressInput" Placeholder="192.168.1.1" />
+            <Label Text="Подключение установлено" />
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>
